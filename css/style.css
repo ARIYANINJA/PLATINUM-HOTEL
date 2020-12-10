@@ -223,6 +223,7 @@ p {
 /* contact us */
 #contact-form {
   margin-bottom: 20px;
+  margin-left: 3rem;
 }
 #contact-form label {
   display: block;
