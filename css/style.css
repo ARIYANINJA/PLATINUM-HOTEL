@@ -38,6 +38,11 @@ p {
   display: inline-block;
   padding-bottom: 5px !important;
 }
+#navbar .logo a {
+  float: none;
+  display: block;
+  margin: auto;
+}
 #navbar ul {
   list-style: none;
   float: right;
@@ -140,7 +145,7 @@ p {
   line-height: 1.7em;
 }
 #hotel-info {
-  height: 400px;
+  height: 450px;
 }
 #hotel-info .info-img {
   float: left;

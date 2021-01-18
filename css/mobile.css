@@ -1,17 +1,88 @@
-#navbar .container .logo {
+#navbar .logo a {
   float: none;
-  display: inline;
-  padding-left: 30%;
-  padding-right: 50%;
-}
-#navbar h1 {
-  float: none;
-  text-align: center;
+  display: block;
+  margin-left: 65%;
 }
 #navbar ul,
 #navbar ul li {
   float: none;
+  text-align: center;
 }
 #navbar ul li a {
-  padding: 35px 0px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem 0;
+  height: 4rem;
+  border-bottom: dotted 1px rgb(255, 145, 0);
+}
+#showcase {
+  height: 100%;
+}
+#showcase #showcase-content {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+/* hotel-info section */
+#hotel-info {
+  height: 400px;
+}
+#hotel-info .info-img {
+  display: none;
+}
+#hotel-info .info-text {
+  width: 100%;
+  float: none;
+}
+#hotel-info .info-text p {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#hotel-info .info-text h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding-bottom: 0;
+}
+.box {
+  float: none;
+  width: 100%;
+}
+#main-footer {
+  font-size: 0.6rem;
+}
+/* about us */
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+#about-info .info-right img {
+  display: none;
+}
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+#comments {
+  height: 800px;
+}
+#comments h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 3rem;
+}
+#comments .comment {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  padding: 40px;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+#contact-info .box {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dotted rgb(255, 145, 0);
 }
